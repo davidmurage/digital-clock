@@ -1,0 +1,25 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to top, rgb(0,0,0,0.5)50%, rgb(0,0,0,0.5)50%),url(images/weby\ image.jpg);
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+
+@media screen and (max-width:600px) {
+    body{
+     padding: 20px;
+    } 
+  .container{
+     width: 100%;
+    }
+ }
